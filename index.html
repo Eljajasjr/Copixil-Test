@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Lista de tareas interactiva</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="icon" type="image/x-icon" href="https://images.vexels.com/media/users/3/151869/isolated/preview/767ca771755f4675d4063c03e17c8595-icono-de-lista-de-verificacion-medica.png">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Lista de Tareas</h1>
+
+        </header>
+
+        <div class="container"> 
+
+            <div class="porHacer">
+
+                <h2>Tareas por Hacer</h2>
+
+                <form id="Formulario">
+
+                    <input type="text" id="textInput" placeholder="Ingrese la tarea a agregar">
+
+                    <button type="submit">Agregar a la lista</button>
+
+                </form>
+
+                <ul id="Por-Hacer"></ul>
+
+                <p>Cantidad: <span id="cantidadPorHacer"></span></p>
+
+            </div>
+
+            <div class="Terminadas">
+                
+                <h2>Tareas Hechas</h2>
+
+                <ul id="Terminadas"></ul>
+
+                <p>Cantidad: <span id="cantidadTerminadas"></span></p>
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+    
+</html>

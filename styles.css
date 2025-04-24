@@ -1,0 +1,70 @@
+body {
+
+    background-color: #dddddd;
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+h2 {
+
+    text-align: center;
+
+}
+
+div.container {
+
+    width: 100%;
+
+    overflow: auto;
+
+}
+
+div.porHacer {
+
+    width: 50%;
+
+    float: left;
+
+    background-color: #ff9898;
+
+}
+
+div.Terminadas {
+
+    width: 50%;
+
+    float: left;
+
+    background-color: aquamarine;
+
+}
+
+form {
+
+    padding-left: 0.5%;
+    
+}
+
+
+#Terminadas{
+
+    text-decoration-line: line-through;
+
+}
+
+p {
+
+    padding-left: 0.5%;
+
+}
+
+button {
+
+    margin-left: 0.5%;
+
+}
